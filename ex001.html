@@ -5,19 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercicios 01</title>
-</head>
 <style>
     body{
-        background-color: black;
-        font: 25pt 
+        background-color: rgb(121, 87, 216);
+        color:rgb(58, 45, 29);
+        font: normal 25pt Arial;
+    }
+    h1{
+        color:rgb(34, 34, 34)
     }
 </style>
+</head>
 <body>
-    <script>
+    <h1>Avalie Sua resposta!</h1>
+    <script>     
+        var travessia = window.alert('escreva a sequência correta de como deve ser feita a travessia da alfafa, lobo e cabra. respeitando a seguinte regra.')
+        var regra = window.alert('O Lobo nao pode ficar sozinho com a cabra, a cabra nâo pode ficar sozinha com a alfafa, e o Homem só pode levar um pertence por vez no barco a cada viagem.')
+        var cabra = window.prompt('A CABRA é o primeiro, o segundo ou o terceiro?')
+        var alfafa = window.prompt('a ALFAFA é o primeiro, o segundo ou o terceiro?')
+        var lobo = window.prompt('O LOBO é primeiro, o segundo ou o terceiro?')
+        document.write('A sequência correta é Cabra, Alfafa e Lobo. Ou cabra, Lobo e Alfafa<br/>')
+        document.write(`Você escreveu que a Cabra é ${cabra.toUpperCase()}, o Lobo ${lobo.toUpperCase()} e a alfafa ${alfafa.toUpperCase()}.`)
 
-
-
+/* O lobo nao pode ficar com a cabra
+    a cabra nao pode ficar sozinha com a alfafa
+    primeiro cabra
+    sengundo lobo 
+    terceiro alfafa*/
     </script>
-    
 </body>
 </html>
+
+
+    
+
