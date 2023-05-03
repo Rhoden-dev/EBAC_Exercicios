@@ -8,7 +8,7 @@
 <style>
     body{
         background-color: rgb(121, 87, 216);
-        color:rgb(58, 45, 29);
+        color:rgb(41, 31, 20);
         font: normal 25pt Arial;
     }
     h1{
@@ -19,19 +19,17 @@
 <body>
     <h1>Avalie Sua resposta!</h1>
     <script>     
-        var travessia = window.alert('escreva a sequência correta de como deve ser feita a travessia da alfafa, lobo e cabra. respeitando a seguinte regra.')
-        var regra = window.alert('O Lobo nao pode ficar sozinho com a cabra, a cabra nâo pode ficar sozinha com a alfafa, e o Homem só pode levar um pertence por vez no barco a cada viagem.')
-        var cabra = window.prompt('A CABRA é o primeiro, o segundo ou o terceiro?')
-        var alfafa = window.prompt('a ALFAFA é o primeiro, o segundo ou o terceiro?')
-        var lobo = window.prompt('O LOBO é primeiro, o segundo ou o terceiro?')
-        document.write('A sequência correta é Cabra, Alfafa e Lobo. Ou cabra, Lobo e Alfafa<br/>')
-        document.write(`Você escreveu que a Cabra é ${cabra.toUpperCase()}, o Lobo ${lobo.toUpperCase()} e a alfafa ${alfafa.toUpperCase()}.`)
-
-/* O lobo nao pode ficar com a cabra
-    a cabra nao pode ficar sozinha com a alfafa
-    primeiro cabra
-    sengundo lobo 
-    terceiro alfafa*/
+     var a = window.alert('Ecreva como a travessia deve ser feita respeitando as Regras a seguir: O Lobo não pode ficar sozinho com a Cabra e a Cabra não pode ficar sozinha com o a alfafa.... O Homem pode levar apenas um por vez no barco, para cada margem, tendo duas margens possiveis.')
+     var b = window.alert('Escreva Passo a Passo... tendo 7 passos possiveis.')
+     var v1 = window.prompt('Passo 01:')
+     var v2 = window.prompt('Passo 02:')
+     var v3 = window.prompt('Passo 03:')
+     var v4 = window.prompt('Passo 04:')
+     var v5 = window.prompt('passo 05:')
+     var v6 = window.prompt('Passo 06:')
+     var v7 = window.prompt('Passo 07')
+     document.write('A Resposta Correta é:<br/>passo 01: Levar o Lobo para margem A<br/>passo 02:Voltar<br/>Passo 03:Levar a Cabra para Margem B<br/>Passo 04:Voltar<br/>Passo 05:Levar a alfafa para margem A<br/>Passo 06:voltar para Margem B<br/>Passo 07:Levar a Cabra para margem A<br/>')
+    document.write(`</br>Sua resposta foi<br/>Passo 01: ${v1}<br/>Passo 02: ${v2}<br/>Passo 03: ${v3}<br/>Passo 04: ${v4}<br/>Passo 05: ${v5}<br/>Passo 06: ${v6}<br/>Passo 07: ${v7}`)
     </script>
 </body>
 </html>
